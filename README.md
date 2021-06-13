@@ -20,3 +20,7 @@ The above command will query the DNS server for any default A,TXT,NS,SOA,SPF rec
 sublist3r -d vulnbegin.co.uk
 
 The above query uses OSINT to discover domain names from various search engines and other data resources, from the result you will find an obscure subdomain if you visit it this will show you a flag
+
+result:
+server.vulnbegin.co.uk
+v64hss83.vulnbegin.co.uk

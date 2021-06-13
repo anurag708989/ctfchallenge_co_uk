@@ -66,3 +66,6 @@ ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&passwor
 
 ### 8-flag 
 "flag":"[^FLAG^7B3A24F3368E71842ED7053CF1E51BB0^FLAG^]",
+
+### 9-flag after indirect object reference for user 5 
+[^FLAG^3D82BE780F46EE86CE060D23E6E80639^FLAG^]

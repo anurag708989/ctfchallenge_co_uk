@@ -51,3 +51,10 @@ ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&passwor
 
 
 ### 5-flag 	[^FLAG^93D7491FB4B054FB5C5AC3E0292BE41C^FLAG^]
+
+
+
+
+
+### 6-flag from brute forcing the directry or it can be achieved using ffuf
+{"api_key":"X-Token: 492E64385D3779BC5F040E2B19D67742","flag":"[^FLAG^F6A691584431F9F2C29A3A2DE85A2210^FLAG^]"}

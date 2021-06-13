@@ -23,4 +23,7 @@ The above query uses OSINT to discover domain names from various search engines 
 
 result:
 server.vulnbegin.co.uk
+
 v64hss83.vulnbegin.co.uk
+
+[^FLAG^E858ED9649E57BECE9ACD1A4C60D3446^FLAG^] on server.vulnbegin.co.uk

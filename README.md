@@ -34,3 +34,7 @@ v64hss83.vulnbegin.co.uk
 
 dnsrecon for finding subdomains using brute force
 dnsrecon -d vulnbegin.co.uk -D ~/wordlists/subdomains.txt -t brt
+
+
+content discovery using ffuf:
+ffuf -p 0.1 -t 1 -w ~/wordlists/content.txt -H "Cookie: ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9" -u http://www.vulnbegin.co.uk/FUZZ

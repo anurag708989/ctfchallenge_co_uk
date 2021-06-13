@@ -30,3 +30,7 @@ v64hss83.vulnbegin.co.uk
 [^FLAG^E858ED9649E57BECE9ACD1A4C60D3446^FLAG^] on server.vulnbegin.co.uk
  
  ### 2-flag from sublister : [^FLAG^047524FE61AE6B5FD1D184994C7322FC^FLAG^]
+
+
+dnsrecon for finding subdomains using brute force
+dnsrecon -d vulnbegin.co.uk -D ~/wordlists/subdomains.txt -t brt

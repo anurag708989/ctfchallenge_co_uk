@@ -60,5 +60,9 @@ ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&passwor
 {"api_key":"X-Token: 492E64385D3779BC5F040E2B19D67742","flag":"[^FLAG^F6A691584431F9F2C29A3A2DE85A2210^FLAG^]"}
 
 
-### 7-flags from adding X-Token we got from cpanel/env 
+### 7-flag from adding X-Token we got from cpanel/env 
 {"messaged":"User Authenticated","flag":"[^FLAG^0BDC60CC5E283476E7107C814C18DCCF^FLAG^]"}
+
+
+### 8-flag 
+"flag":"[^FLAG^7B3A24F3368E71842ED7053CF1E51BB0^FLAG^]",

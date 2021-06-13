@@ -14,3 +14,5 @@ robots.txt --> http://www.vulnbegin.co.uk/secret_d1rect0y/ -->[^FLAG^2B22E2CB70E
 tools used and documentation:
 #### nslookup -type=any vulnbegin.co.uk 8.8.8.8
 The above command will query the DNS server for any default A,TXT,NS,SOA,SPF records. You will see from the results there is a TXT record with a flag.
+
+### 1-flag: [^FLAG^BED649C4DB2DF265BD29419C13D82117^FLAG^]

@@ -16,3 +16,7 @@ tools used and documentation:
 The above command will query the DNS server for any default A,TXT,NS,SOA,SPF records. You will see from the results there is a TXT record with a flag.
 
 ### 1-flag: [^FLAG^BED649C4DB2DF265BD29419C13D82117^FLAG^]
+
+sublist3r -d vulnbegin.co.uk
+
+The above query uses OSINT to discover domain names from various search engines and other data resources, from the result you will find an obscure subdomain if you visit it this will show you a flag

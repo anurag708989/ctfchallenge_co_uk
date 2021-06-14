@@ -69,3 +69,7 @@ ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&passwor
 
 ### 9-flag after indirect object reference for user 5 
 [^FLAG^3D82BE780F46EE86CE060D23E6E80639^FLAG^]
+
+
+# vulnlawyers | easy | target:vulnlawyers.co.uk
+

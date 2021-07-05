@@ -139,6 +139,7 @@ hint from flag-2 : /lawyers-only
 ```
 
 ### flag-4 after brute force from intruder 
+email : jaskaran.lowe@vulnlawyers.co.uk password: summer
 
 ```
 [^FLAG^7F1ED1F306FC4E3399CEE15DF4B0AE3C^FLAG^]

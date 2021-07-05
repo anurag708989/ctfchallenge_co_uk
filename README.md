@@ -72,7 +72,7 @@ ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&passwor
 ```[^FLAG^3D82BE780F46EE86CE060D23E6E80639^FLAG^]```
 
 
-# vulnlawyers | easy | target:vulnlawyers.co.uk
+# vulnlawyers | easy | target:vulnlawyers.co.uk | 6 flags
 
 #### cookie used during fuzzing ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9
 

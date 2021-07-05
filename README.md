@@ -137,3 +137,10 @@ hint from flag-2 : /lawyers-only
 ```
 {"users":[{"name":"Yusef Mcclain","email":"yusef.mcclain@vulnlawyers.co.uk"},{"name":"Shayne Cairns","email":"shayne.cairns@vulnlawyers.co.uk"},{"name":"Eisa Evans","email":"eisa.evans@vulnlawyers.co.uk"},{"name":"Jaskaran Lowe","email":"jaskaran.lowe@vulnlawyers.co.uk"},{"name":"Marsha Blankenship","email":"marsha.blankenship@vulnlawyers.co.uk"}],"flag":"[^FLAG^25032EB0D322F7330182507FBAA1A55F^FLAG^]"}
 ```
+
+### flag-4 after brute force from intruder 
+
+```
+[^FLAG^7F1ED1F306FC4E3399CEE15DF4B0AE3C^FLAG^]
+
+```

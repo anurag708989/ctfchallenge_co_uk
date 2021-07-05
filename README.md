@@ -130,3 +130,5 @@ Content-Length: 1119
 ```
 
 ```[^FLAG^FB52470E40F47559EBA87252B2D4CF67^FLAG^]```
+
+hint from flag-2 : /lawyers-only 

@@ -132,3 +132,8 @@ Content-Length: 1119
 ```[^FLAG^FB52470E40F47559EBA87252B2D4CF67^FLAG^]```
 
 hint from flag-2 : /lawyers-only 
+
+## flag-3 from data.vulnlawyers.co.uk/users after fuzzing
+```
+{"users":[{"name":"Yusef Mcclain","email":"yusef.mcclain@vulnlawyers.co.uk"},{"name":"Shayne Cairns","email":"shayne.cairns@vulnlawyers.co.uk"},{"name":"Eisa Evans","email":"eisa.evans@vulnlawyers.co.uk"},{"name":"Jaskaran Lowe","email":"jaskaran.lowe@vulnlawyers.co.uk"},{"name":"Marsha Blankenship","email":"marsha.blankenship@vulnlawyers.co.uk"}],"flag":"[^FLAG^25032EB0D322F7330182507FBAA1A55F^FLAG^]"}
+```

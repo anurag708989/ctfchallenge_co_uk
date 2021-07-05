@@ -74,7 +74,7 @@ ffuf -p 0.1 -t 1 -w ~/wordlists/passwords.txt -X POST -d "username=admin&passwor
 
 # vulnlawyers | easy | target:vulnlawyers.co.uk
 
-#### cookie used for fuzzing ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9
+#### cookie used during fuzzing ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9
 
 subdomain from sublister:
 www.vulnlawyers.co.uk

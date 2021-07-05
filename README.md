@@ -81,3 +81,8 @@ www.vulnlawyers.co.uk
 data.vulnlawyers.co.uk
 ### flag-1
 ```[^FLAG^E78DEBBFDFBEAFF1336B599B0724A530^FLAG^]```
+
+
+
+### flag-2  in the redirect 302 request when login --> denied
+```[^FLAG^FB52470E40F47559EBA87252B2D4CF67^FLAG^]```

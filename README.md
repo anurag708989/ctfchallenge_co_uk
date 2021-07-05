@@ -157,3 +157,7 @@ from that i got all users endpoint containing the credentials
 ```
 [^FLAG^938F5DC109A1E9B4FF3E3E92D29A56B3^FLAG^]
 ```
+### flag-6 admin login
+```
+[^FLAG^B38BAE0B8B804FCB85C730F10B3B5CB5^FLAG^]
+```

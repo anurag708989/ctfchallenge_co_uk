@@ -85,4 +85,48 @@ data.vulnlawyers.co.uk
 
 
 ### flag-2  in the redirect 302 request when login --> denied
+where response look like
+```
+HTTP/1.1 302 Found
+Server: nginx/1.14.0 (Ubuntu)
+Date: Mon, 05 Jul 2021 18:09:09 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Set-Cookie: ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9; expires=Wed, 04-Aug-2021 18:09:09 GMT; Max-Age=2592000; path=/; domain=.vulnlawyers.co.uk
+Location: /denied
+Content-Length: 1119
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VulnLawyers - Old Login</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/template-manager/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 style="padding-top:100px;text-align: center;color: #060505;letter-spacing: -1px;font-weight: bold">VulnLawyers</h1>
+            <h3 class="text-center">We'll win that case!</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="alert alert-info">
+                <p>Access to this portal can now be found here <a href=/lawyers-only">/lawyers-only</a></p>
+                <p>[^FLAG^FB52470E40F47559EBA87252B2D4CF67^FLAG^]</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
 ```[^FLAG^FB52470E40F47559EBA87252B2D4CF67^FLAG^]```

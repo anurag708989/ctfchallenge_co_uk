@@ -161,3 +161,9 @@ from that i got all users endpoint containing the credentials
 ```
 [^FLAG^B38BAE0B8B804FCB85C730F10B3B5CB5^FLAG^]
 ```
+
+
+## vulnforum | medium | 4 flags
+
+cookie for fuzzing
+ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9

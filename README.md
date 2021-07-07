@@ -191,3 +191,10 @@ response
 ```
 {"display_msg":"Server Error","technical_msg":"Server \"http:\/\/81x2ajtu.auth.vulnforum.co.uk\/auth\" responded with a 404 error","flag":"[^FLAG^D45391B42D080B1938B035A601C657B3^FLAG^]"}
 ```
+
+### flag-2 subdomain takeover
+www.81x2ajtu.auth.vulnforum.co.uk. 43200 IN CNAME vulnauth.co.uk.
+
+```
+[^FLAG^A959EBEC1D9A02A456FC5BCCF7BA8D91^FLAG^]
+```
